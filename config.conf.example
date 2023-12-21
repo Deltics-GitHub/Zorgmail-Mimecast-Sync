@@ -1,0 +1,7 @@
+[default]
+client_id = 
+client_secret = 
+base_url = api.services.mimecast.com
+domainbook_url = https://relay.zorgmail.nl/domainbook.txt
+exclude = example.com
+group = Zorgmail
