@@ -1,6 +1,6 @@
 # Zorgmail Mimecast Sync
 
-This is a script used for updating the Mimecast profile group with the latest Zorgmail domainbook using the Mimcast API 2.0.  
+This is a script used for updating the Mimecast profile group with the latest Zorgmail domainbook using the Mimecast API 2.0.  
 
 ## Mimecast API Permissions
 1. Create an Mimcast API 2.0 Application
