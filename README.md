@@ -2,11 +2,22 @@
 
 This is a script used for updating the Mimecast profile group with the latest Zorgmail domainbook using the Mimcast API 2.0.  
 
-# How to run
+## Mimecast API Permissions
+1. Create an Mimcast API 2.0 Application
+2. Set the following permissions  
+    **Category:** `Process Automation`  
+    **Products:** `User and Group Management`  
+    **Application Role:** `Basic Administrator`  
+    **Description:** `Zorgmail API Sync`
+ 3. Place your secret_id and secret_key in the config.conf
+
+## How to run
 1. Create a directory /opt/update_mimecast_zorgdomains and place the files main.py and rename the config file to config.conf in this directory.  
 2. Install python packages `pip3 install -r requirements.txt`  
 3. Change the information in the config.conf file and fill in your secret_id and secret_key.
 Also add your domains to the exclude list, so internal mail will not be routed through Zorgmail.
+
+
 
 ## Cronjob
 Create a crontab with the information provided in the cron.txt file. (The user should have permissions to execute the script).  
